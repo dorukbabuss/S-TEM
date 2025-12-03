@@ -1,0 +1,37 @@
+body {
+    font-family: "Consolas", monospace; /* Yazı tipi ailesi */
+    font-size: 19px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #000000; /* Web sayfasının arka plan rengi */
+    color: #00fcf4; /* Metin rengi */
+}
+h1 {
+    color: #00ffd0; /* Başlık rengi */
+    font-size: 30px; /* Başlık yazı tipi boyutu */
+    font-family: "Roboto", sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    display: inline;
+}
+h1:hover {
+    color: #00c3ff; /* Başlık rengi */
+    font-size: 30px; /* Başlık yazı tipi boyutu */
+    font-family: "Roboto", sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    animation: color-change 5s infinite;
+}   
+h2 {
+    font-family:"Poppins", sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+img {
+    width: 400px;    
+    height: auto;   
+}
+yaz {
+    margin-left: 500px;  /* soldan uzaklık */
+    margin-top: 100px;   /* üstten uzaklık */
+    width: 150px;
+    height: 50px;
+}
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: rgb(1, 254, 9); }
+}
