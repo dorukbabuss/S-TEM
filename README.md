@@ -1,2 +1,1 @@
-# S-TEM
-MEGA KNIGHTLI HAVA DURUMU SUNAN SITE
+html dosyasına "index.html" css dosyasına "style.css" adını vermek zorundasınız!
